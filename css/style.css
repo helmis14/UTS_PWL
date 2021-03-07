@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Monument Black';
+    src: url('fonts/MonumentExtended-Black.eot');
+    /* IE9 Compat Modes */
+    src: url('fonts/MonumentExtended-Black.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/MonumentExtended-Black.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('fonts/MonumentExtended-Black.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Monument Regular';
+    src: url('fonts/MonumentExtended-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('fonts/MonumentExtended-Regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/MonumentExtended-Regular.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('fonts/MonumentExtended-Regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('fonts/NeueMontreal-Bold.woff2') format('woff2'),
+        url('fonts/NeueMontreal-Bold.woff') format('woff'),
+        url('fonts/MonumentExtended-Regular.otf') format('opentype'),
+
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #222227;
+    overflow-x: hidden !important;
+}
