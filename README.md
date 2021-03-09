@@ -22,3 +22,5 @@ untuk edit css bisa di file css hati-hati jangan edit di file bootraps atau apap
 untuk menambahkan tampilan sesuai dengan tema yaa 
 
 terimakasih
+
+tes rendi berhasil push
