@@ -71,3 +71,33 @@ h2 {
     bottom: 20vw;
     color: white;
 }
+
+.navbar-toggler {
+    outline: none !important;
+    border: 0px !important;
+}
+
+.navbar-nav a:active {
+    color: #e099bd !important;
+}
+
+.navbar-nav a:hover {
+    color: #9e99e0;
+}
+
+.kaver {
+    height: 70vh;
+    background-color: #222227;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 30%;
+    background-color: white;
+    height: 2px;
+}
