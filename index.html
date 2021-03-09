@@ -24,13 +24,54 @@
       <div class="ripple"></div>
 
       <!-- Header -->
-      <section id="header"></section>
+      <section id="header">
+        <header class="text-center pb-4" style="background-color: #222227; height:100vh; line-height: 100vh;">
+            <div class="container text-center">
+              <img data-aos="fade-down" class="img-fluid mx-auto my-auto" style="height:auto; width: 100vh; z-index: 1;"
+                src="img/noise.png">
+              <img data-aos="slide-down" class="img-fluid mx-auto my-auto"
+                style="height:auto; width: 70%; z-index: 2; position:absolute; top:0; left:0; bottom:0; right:0;"
+                src="img/welcome.png" alt="">
+            </div>
+          </header>
+          <div class="container-md text-center">
+            <span id="tanggalwaktu"></span>
+            <span class="kanan">>>>>>>>></span>
+          </div>
+          <a href="#hum">
+            <div class="scroll-down text-center"></div>
+          </a>
+      </section>
 
       <!-- Navbar -->
-      <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #222227;"></nav>
-    
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #222227;">
+      <div class="container">
+        <button class="navbar-toggler mx-auto active" type="button" data-toggle="collapse"
+          data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="bi bi-chevron-down"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#hum" style="font-family: 'Monument Regular','Overpass';">Home <span
+                class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="#menu" style="font-family: 'Monument Regular','Overpass';">Menu</a>
+            <a class="nav-link active" href="#footer" style="font-family: 'Monument Regular','Overpass';">Contact</a>
+            <a class="nav-link active" href="#phisolop"style="font-family: 'Monument Regular','Overpass';">Our Philosophy</a>
+            <a class="nav-link active" href="#abut" style="font-family: 'Monument Regular','Overpass';">About Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
       <!--jumbotron-->
       <section id="hum">
+        <div class="container-fluid text-center kaver" style="background-image:url(img/noise2.png);">
+            <h2 style="font-family: 'Monument Black','Overpass'; font-weight: bold; font-size: 7vw; color:white;
+            position:absolute; z-index:10; top:0%; left:0; right:0; bottom:0; line-height:70vh;"><span
+                style="text-transform: uppercase;" id="type"></span></h2>
+          </div>
+      </section>
         
       <!--footer-->
       <section id="footer">
