@@ -114,8 +114,8 @@
         </div>
     </section>
 
-    <!--Skills-->
-    <section id="Event" style="background-color: #1c1c1f;">
+    <!--Event-->
+    <section id="event" style="background-color: #1c1c1f;">
       <div class="container pb-5">
         <div class="row">
           <div data-aos="slide-down" class="col text-center mt-5">
@@ -243,5 +243,37 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- script bebas edit -->
     <script src="js/script.js"></script>
+    <!--typed.js-->
+  <script src="js/typed.js"></script>
+  <script>
+    var typed3 = new Typed('#type', {
+      strings: ['Comfortable', 'Healthy', 'Delicious'],
+      typeSpeed: 60,
+      backSpeed: 60,
+      smartBackspace: true, // this is a default
+      loop: true
+    });
+  </script>
+    <!--showhide foto profile-->
+    <script>
+      function ShowHide() {
+        var x = document.getElementById("img2");
+        var y = document.getElementById("img1");
+        if (x.style.opacity === "0") {
+          x.style.opacity = "1";
+          y.style.opacity = "0";
+        } else {
+          x.style.opacity = "0";
+         y.style.opacity = "1";
+       }
+     }
+   </script>
+   <!-- fungsi click -->
+    <script>
+      $("a.nav-link").click(function () {
+       $("a.nav-link").css("color", "white");
+       $(this).css("color", "#9e99e0");
+      });
+  </script>
 </body>
 </html>
