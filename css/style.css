@@ -237,3 +237,112 @@ p,h1,h2,h3,h4,h5,.kanan,#tanggalwaktu,.list-group-item {
 .scroll-down:hover {
     background-color: #9e99e0;
 }
+
+#myBtn {
+    background-color: #222227;
+    height: 50px;
+    width: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+}
+
+#myBtn::before,
+#myBtn::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: 3.5px;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(225deg);
+    border: 2px solid rgb(255, 255, 255);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-up 1s ease-in-out infinite;
+}
+
+#myBtn::before {
+    top: 30%;
+    animation-delay: 0.3s;
+   
+}
+
+#myBtn:active {
+    background-color: #e099bd !important;
+}
+
+#myBtn:hover {
+    background-color: #9e99e0;
+}
+
+.animate {
+    animation: ripple-mo 1s cubic-bezier(0, 0, 0.2, 1);
+}
+
+@keyframes ripple-mo {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(10);
+        opacity: 0;
+    }
+}
+@keyframes scroll-up {
+    100% {
+        
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    0% {
+        top: 90%;
+        opacity: 0;
+    }
+}
+
+@keyframes scroll-down {
+    0% {
+        
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    100% {
+        top: 90%;
+        opacity: 0;
+    }
+}
+
+.ripple {
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    transform: scale(0);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+}

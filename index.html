@@ -64,6 +64,12 @@
       </div>
     </nav>
 
+     <!--BUTTON TO UP-->
+     <a onclick="topFunction()">
+      <div id="myBtn" class="scroll-up">
+      </div>
+    </a>
+
       <!--jumbotron-->
       <section id="hum">
         <div class="container-fluid text-center kaver" style="background-image:url(img/noise2.png);">
@@ -230,6 +236,8 @@
       <!--footer-->
       <section id="footer">
 
+     
+
 
 
     <!-- jQuery dan Bootstrap file js  -->
@@ -241,6 +249,13 @@
     </script>
     <!-- animasi AOS-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+        mirror: false, 
+        disable: 'mobile', 
+      });
+    </script>
     <!-- script bebas edit -->
     <script src="js/script.js"></script>
     <!--typed.js-->
@@ -250,7 +265,7 @@
       strings: ['Comfortable', 'Healthy', 'Delicious'],
       typeSpeed: 60,
       backSpeed: 60,
-      smartBackspace: true, // this is a default
+      smartBackspace: true,
       loop: true
     });
   </script>
@@ -274,6 +289,48 @@
        $("a.nav-link").css("color", "white");
        $(this).css("color", "#9e99e0");
       });
+  </script>
+   <!--script button-->
+   <script>
+    
+    mybutton = document.getElementById("myBtn");
+
+    // ketika di scrolls kebawah 20px  tampilkan button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    
+    function topFunction() {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+    }
+  </script>
+  <script>
+    //Gerak Ripple 
+    var drawRipple = function (ev) {
+      var x = ev.clientX;
+      var y = ev.clientY;
+      var node = document.querySelector(".ripple");
+      var newNode = node.cloneNode(true);
+      newNode.classList.add("animate");
+      newNode.style.left = ev.clientX - 5 + "px";
+      newNode.style.top = ev.clientY - 5 + "px";
+      node.parentNode.replaceChild(newNode, node);
+    };
+
+    //Gerak Ripple 
+    window.addEventListener("click", drawRipple);
+
+    
   </script>
 </body>
 </html>
