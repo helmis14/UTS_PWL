@@ -1,5 +1,6 @@
 # UTS_PWL
 Tugas web pwl IFA 19 
+Matikan koneksi internet dahulu sebelum membuka index.html
 
 kelompok : 
 HelmiSulaeman_5520119018 
