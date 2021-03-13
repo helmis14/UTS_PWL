@@ -1,14 +1,18 @@
 # UTS_PWL
+
 Tugas web pwl IFA 19 
-Matikan koneksi internet dahulu sebelum membuka index.html
+
 
 kelompok : 
 HelmiSulaeman_5520119018 
 RendiMaulana_5520119025 
 EndarSuntara_5520119005
 
+
 Web ini bertema kafe makanan dan minuman
 
+ on kan nyalakan Internet
+ 
 cara berpartisipasi :
 1.fork repo ini
 2.lalu clone 
