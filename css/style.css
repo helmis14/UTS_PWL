@@ -1,358 +1,361 @@
 @font-face {
-    font-family: 'Monument Black';
-    src: url('fonts/MonumentExtended-Black.eot');
-    /* IE9 Compat Modes */
-    src: url('fonts/MonumentExtended-Black.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('fonts/MonumentExtended-Black.woff') format('woff'),
-        /* Pretty Modern Browsers */
-        url('fonts/MonumentExtended-Black.ttf') format('truetype'),
-        /* Safari, Android, iOS */
+  font-family: "Monument Black";
+  src: url("fonts/MonumentExtended-Black.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/MonumentExtended-Black.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/MonumentExtended-Black.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("fonts/MonumentExtended-Black.ttf")
+      format("truetype");
+  /* Safari, Android, iOS */
 }
 
 @font-face {
-    font-family: 'Monument Regular';
-    src: url('fonts/MonumentExtended-Regular.eot');
-    /* IE9 Compat Modes */
-    src: url('fonts/MonumentExtended-Regular.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('fonts/MonumentExtended-Regular.woff') format('woff'),
-        /* Pretty Modern Browsers */
-        url('fonts/MonumentExtended-Regular.ttf') format('truetype'),
-        /* Safari, Android, iOS */
+  font-family: "Monument Regular";
+  src: url("fonts/MonumentExtended-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/MonumentExtended-Regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/MonumentExtended-Regular.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("fonts/MonumentExtended-Regular.ttf")
+      format("truetype");
+  /* Safari, Android, iOS */
 }
 
 @font-face {
-    font-family: 'Neue Montreal';
-    src: url('fonts/NeueMontreal-Bold.woff2') format('woff2'),
-        url('fonts/NeueMontreal-Bold.woff') format('woff'),
-        url('fonts/MonumentExtended-Regular.otf') format('opentype'),
-
+  font-family: "Neue Montreal";
+  src: url("fonts/NeueMontreal-Bold.woff2") format("woff2"),
+    url("fonts/NeueMontreal-Bold.woff") format("woff"),
+    url("fonts/MonumentExtended-Regular.otf") format("opentype");
 }
 
 html {
-    scroll-behavior: smooth;
-    background-color: #222227;
-    overflow-x: hidden !important;
+  scroll-behavior: smooth;
+  background-color: #222227;
+  overflow-x: hidden !important;
 }
 h2 {
-    font-family: 'Neue Montreal';
-    font-weight: bold;
+  font-family: "Neue Montreal";
+  font-weight: bold;
 }
 
 .card-title {
-    font-family: 'Overpass', sans-serif;
-    font-weight: bold;
-    color: white;
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  color: white;
 }
 
 .card-text {
-    font-family: 'Overpass', sans-serif;
-    color: white;
+  font-family: "Overpass", sans-serif;
+  color: white;
 }
 
 .card {
-    border-radius: 0px;
-    border: 0px;
-    overflow: hidden;
-    background-color: #222227;
-    box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.199);
+  border-radius: 0px;
+  border: 0px;
+  overflow: hidden;
+  background-color: #222227;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.199);
 }
 
 .welcome {
-    font-size: 7vw;
-    font-family: 'Monument Black';
-    z-index: 2;
-    position: absolute;
-    line-height: 100vh;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 20vw;
-    color: white;
+  font-size: 7vw;
+  font-family: "Monument Black";
+  z-index: 2;
+  position: absolute;
+  line-height: 100vh;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 20vw;
+  color: white;
 }
 
 .navbar-toggler {
-    outline: none !important;
-    border: 0px !important;
+  outline: none !important;
+  border: 0px !important;
 }
 
 .navbar-nav a:active {
-    color: #e099bd !important;
+  color: #e099bd !important;
 }
 
 .navbar-nav a:hover {
-    color: #9e99e0;
+  color: #9e99e0;
 }
 
 .kaver {
-    height: 70vh;
-    background-color: #222227;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
-    position: relative;
-    margin: 0;
-    padding: 0;
+  height: 70vh;
+  background-color: #222227;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 hr {
-    width: 30%;
-    background-color: white;
-    height: 2px;
+  width: 30%;
+  background-color: white;
+  height: 2px;
 }
 
-p,h1,h2,h3,h4,h5,.kanan,#tanggalwaktu,.list-group-item {
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+.kanan,
+#tanggalwaktu,
+.list-group-item {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .tombol {
-    text-align: center;
-    font-size: 40px;
-    line-height: 40px;
-    text-decoration: none;
-    z-index: 20;
-    padding: 0px;
-    margin: 0px;
-    color: black;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  z-index: 20;
+  padding: 0px;
+  margin: 0px;
+  color: black;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
 }
 
 .cont_img {
-    border: 2px solid white;
-    width: 50vh;
-    overflow: hidden;
-    float: left;
-    position: relative;
+  border: 2px solid white;
+  width: 50vh;
+  overflow: hidden;
+  float: left;
+  position: relative;
 }
 
 .cont_edu {
-    box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.199);
-    width: 100%;
-    height: auto;
+  box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.199);
+  width: 100%;
+  height: auto;
 }
 
 .list-group-item {
-    background-color: transparent;
-    color: white;
-    border: 0px;
-    font-family: 'Overpass', sans-serif;
-    font-size: large;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  font-family: "Overpass", sans-serif;
+  font-size: large;
 }
 
 .cont_engineer {
-    overflow: hidden;
-    border: 0.5px solid white;
-    background-color: #222227;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 304 304' width='304' height='304'%3E%3Cpath fill='%23ffffff' fill-opacity='0.06' d='M44.1 224a5 5 0 1 1 0 2H0v-2h44.1zm160 48a5 5 0 1 1 0 2H82v-2h122.1zm57.8-46a5 5 0 1 1 0-2H304v2h-42.1zm0 16a5 5 0 1 1 0-2H304v2h-42.1zm6.2-114a5 5 0 1 1 0 2h-86.2a5 5 0 1 1 0-2h86.2zm-256-48a5 5 0 1 1 0 2H0v-2h12.1zm185.8 34a5 5 0 1 1 0-2h86.2a5 5 0 1 1 0 2h-86.2zM258 12.1a5 5 0 1 1-2 0V0h2v12.1zm-64 208a5 5 0 1 1-2 0v-54.2a5 5 0 1 1 2 0v54.2zm48-198.2V80h62v2h-64V21.9a5 5 0 1 1 2 0zm16 16V64h46v2h-48V37.9a5 5 0 1 1 2 0zm-128 96V208h16v12.1a5 5 0 1 1-2 0V210h-16v-76.1a5 5 0 1 1 2 0zm-5.9-21.9a5 5 0 1 1 0 2H114v48H85.9a5 5 0 1 1 0-2H112v-48h12.1zm-6.2 130a5 5 0 1 1 0-2H176v-74.1a5 5 0 1 1 2 0V242h-60.1zm-16-64a5 5 0 1 1 0-2H114v48h10.1a5 5 0 1 1 0 2H112v-48h-10.1zM66 284.1a5 5 0 1 1-2 0V274H50v30h-2v-32h18v12.1zM236.1 176a5 5 0 1 1 0 2H226v94h48v32h-2v-30h-48v-98h12.1zm25.8-30a5 5 0 1 1 0-2H274v44.1a5 5 0 1 1-2 0V146h-10.1zm-64 96a5 5 0 1 1 0-2H208v-80h16v-14h-42.1a5 5 0 1 1 0-2H226v18h-16v80h-12.1zm86.2-210a5 5 0 1 1 0 2H272V0h2v32h10.1zM98 101.9V146H53.9a5 5 0 1 1 0-2H96v-42.1a5 5 0 1 1 2 0zM53.9 34a5 5 0 1 1 0-2H80V0h2v34H53.9zm60.1 3.9V66H82v64H69.9a5 5 0 1 1 0-2H80V64h32V37.9a5 5 0 1 1 2 0zM101.9 82a5 5 0 1 1 0-2H128V37.9a5 5 0 1 1 2 0V82h-28.1zm16-64a5 5 0 1 1 0-2H146v44.1a5 5 0 1 1-2 0V18h-26.1zm102.2 270a5 5 0 1 1 0 2H98v14h-2v-16h124.1zM242 149.9V160h16v34h-16v62h48v48h-2v-46h-48v-66h16v-30h-16v-12.1a5 5 0 1 1 2 0zM53.9 18a5 5 0 1 1 0-2H64V2H48V0h18v18H53.9zm112 32a5 5 0 1 1 0-2H192V0h50v2h-48v48h-28.1zm-48-48a5 5 0 0 1-9.8-2h2.07a3 3 0 1 0 5.66 0H178v34h-18V21.9a5 5 0 1 1 2 0V32h14V2h-58.1zm0 96a5 5 0 1 1 0-2H137l32-32h39V21.9a5 5 0 1 1 2 0V66h-40.17l-32 32H117.9zm28.1 90.1a5 5 0 1 1-2 0v-76.51L175.59 80H224V21.9a5 5 0 1 1 2 0V82h-49.59L146 112.41v75.69zm16 32a5 5 0 1 1-2 0v-99.51L184.59 96H300.1a5 5 0 0 1 3.9-3.9v2.07a3 3 0 0 0 0 5.66v2.07a5 5 0 0 1-3.9-3.9H185.41L162 121.41v98.69zm-144-64a5 5 0 1 1-2 0v-3.51l48-48V48h32V0h2v50H66v55.41l-48 48v2.69zM50 53.9v43.51l-48 48V208h26.1a5 5 0 1 1 0 2H0v-65.41l48-48V53.9a5 5 0 1 1 2 0zm-16 16V89.41l-34 34v-2.82l32-32V69.9a5 5 0 1 1 2 0zM12.1 32a5 5 0 1 1 0 2H9.41L0 43.41V40.6L8.59 32h3.51zm265.8 18a5 5 0 1 1 0-2h18.69l7.41-7.41v2.82L297.41 50H277.9zm-16 160a5 5 0 1 1 0-2H288v-71.41l16-16v2.82l-14 14V210h-28.1zm-208 32a5 5 0 1 1 0-2H64v-22.59L40.59 194H21.9a5 5 0 1 1 0-2H41.41L66 216.59V242H53.9zm150.2 14a5 5 0 1 1 0 2H96v-56.6L56.6 162H37.9a5 5 0 1 1 0-2h19.5L98 200.6V256h106.1zm-150.2 2a5 5 0 1 1 0-2H80v-46.59L48.59 178H21.9a5 5 0 1 1 0-2H49.41L82 208.59V258H53.9zM34 39.8v1.61L9.41 66H0v-2h8.59L32 40.59V0h2v39.8zM2 300.1a5 5 0 0 1 3.9 3.9H3.83A3 3 0 0 0 0 302.17V256h18v48h-2v-46H2v42.1zM34 241v63h-2v-62H0v-2h34v1zM17 18H0v-2h16V0h2v18h-1zm273-2h14v2h-16V0h2v16zm-32 273v15h-2v-14h-14v14h-2v-16h18v1zM0 92.1A5.02 5.02 0 0 1 6 97a5 5 0 0 1-6 4.9v-2.07a3 3 0 1 0 0-5.66V92.1zM80 272h2v32h-2v-32zm37.9 32h-2.07a3 3 0 0 0-5.66 0h-2.07a5 5 0 0 1 9.8 0zM5.9 0A5.02 5.02 0 0 1 0 5.9V3.83A3 3 0 0 0 3.83 0H5.9zm294.2 0h2.07A3 3 0 0 0 304 3.83V5.9a5 5 0 0 1-3.9-5.9zm3.9 300.1v2.07a3 3 0 0 0-1.83 1.83h-2.07a5 5 0 0 1 3.9-3.9zM97 100a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-48 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 96a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-144a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-96 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm96 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-32 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM49 36a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-32 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM33 68a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 240a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm80-176a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm112 176a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM17 180a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM17 84a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'%3E%3C/path%3E%3C/svg%3E");
+  overflow: hidden;
+  border: 0.5px solid white;
+  background-color: #222227;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 304 304' width='304' height='304'%3E%3Cpath fill='%23ffffff' fill-opacity='0.06' d='M44.1 224a5 5 0 1 1 0 2H0v-2h44.1zm160 48a5 5 0 1 1 0 2H82v-2h122.1zm57.8-46a5 5 0 1 1 0-2H304v2h-42.1zm0 16a5 5 0 1 1 0-2H304v2h-42.1zm6.2-114a5 5 0 1 1 0 2h-86.2a5 5 0 1 1 0-2h86.2zm-256-48a5 5 0 1 1 0 2H0v-2h12.1zm185.8 34a5 5 0 1 1 0-2h86.2a5 5 0 1 1 0 2h-86.2zM258 12.1a5 5 0 1 1-2 0V0h2v12.1zm-64 208a5 5 0 1 1-2 0v-54.2a5 5 0 1 1 2 0v54.2zm48-198.2V80h62v2h-64V21.9a5 5 0 1 1 2 0zm16 16V64h46v2h-48V37.9a5 5 0 1 1 2 0zm-128 96V208h16v12.1a5 5 0 1 1-2 0V210h-16v-76.1a5 5 0 1 1 2 0zm-5.9-21.9a5 5 0 1 1 0 2H114v48H85.9a5 5 0 1 1 0-2H112v-48h12.1zm-6.2 130a5 5 0 1 1 0-2H176v-74.1a5 5 0 1 1 2 0V242h-60.1zm-16-64a5 5 0 1 1 0-2H114v48h10.1a5 5 0 1 1 0 2H112v-48h-10.1zM66 284.1a5 5 0 1 1-2 0V274H50v30h-2v-32h18v12.1zM236.1 176a5 5 0 1 1 0 2H226v94h48v32h-2v-30h-48v-98h12.1zm25.8-30a5 5 0 1 1 0-2H274v44.1a5 5 0 1 1-2 0V146h-10.1zm-64 96a5 5 0 1 1 0-2H208v-80h16v-14h-42.1a5 5 0 1 1 0-2H226v18h-16v80h-12.1zm86.2-210a5 5 0 1 1 0 2H272V0h2v32h10.1zM98 101.9V146H53.9a5 5 0 1 1 0-2H96v-42.1a5 5 0 1 1 2 0zM53.9 34a5 5 0 1 1 0-2H80V0h2v34H53.9zm60.1 3.9V66H82v64H69.9a5 5 0 1 1 0-2H80V64h32V37.9a5 5 0 1 1 2 0zM101.9 82a5 5 0 1 1 0-2H128V37.9a5 5 0 1 1 2 0V82h-28.1zm16-64a5 5 0 1 1 0-2H146v44.1a5 5 0 1 1-2 0V18h-26.1zm102.2 270a5 5 0 1 1 0 2H98v14h-2v-16h124.1zM242 149.9V160h16v34h-16v62h48v48h-2v-46h-48v-66h16v-30h-16v-12.1a5 5 0 1 1 2 0zM53.9 18a5 5 0 1 1 0-2H64V2H48V0h18v18H53.9zm112 32a5 5 0 1 1 0-2H192V0h50v2h-48v48h-28.1zm-48-48a5 5 0 0 1-9.8-2h2.07a3 3 0 1 0 5.66 0H178v34h-18V21.9a5 5 0 1 1 2 0V32h14V2h-58.1zm0 96a5 5 0 1 1 0-2H137l32-32h39V21.9a5 5 0 1 1 2 0V66h-40.17l-32 32H117.9zm28.1 90.1a5 5 0 1 1-2 0v-76.51L175.59 80H224V21.9a5 5 0 1 1 2 0V82h-49.59L146 112.41v75.69zm16 32a5 5 0 1 1-2 0v-99.51L184.59 96H300.1a5 5 0 0 1 3.9-3.9v2.07a3 3 0 0 0 0 5.66v2.07a5 5 0 0 1-3.9-3.9H185.41L162 121.41v98.69zm-144-64a5 5 0 1 1-2 0v-3.51l48-48V48h32V0h2v50H66v55.41l-48 48v2.69zM50 53.9v43.51l-48 48V208h26.1a5 5 0 1 1 0 2H0v-65.41l48-48V53.9a5 5 0 1 1 2 0zm-16 16V89.41l-34 34v-2.82l32-32V69.9a5 5 0 1 1 2 0zM12.1 32a5 5 0 1 1 0 2H9.41L0 43.41V40.6L8.59 32h3.51zm265.8 18a5 5 0 1 1 0-2h18.69l7.41-7.41v2.82L297.41 50H277.9zm-16 160a5 5 0 1 1 0-2H288v-71.41l16-16v2.82l-14 14V210h-28.1zm-208 32a5 5 0 1 1 0-2H64v-22.59L40.59 194H21.9a5 5 0 1 1 0-2H41.41L66 216.59V242H53.9zm150.2 14a5 5 0 1 1 0 2H96v-56.6L56.6 162H37.9a5 5 0 1 1 0-2h19.5L98 200.6V256h106.1zm-150.2 2a5 5 0 1 1 0-2H80v-46.59L48.59 178H21.9a5 5 0 1 1 0-2H49.41L82 208.59V258H53.9zM34 39.8v1.61L9.41 66H0v-2h8.59L32 40.59V0h2v39.8zM2 300.1a5 5 0 0 1 3.9 3.9H3.83A3 3 0 0 0 0 302.17V256h18v48h-2v-46H2v42.1zM34 241v63h-2v-62H0v-2h34v1zM17 18H0v-2h16V0h2v18h-1zm273-2h14v2h-16V0h2v16zm-32 273v15h-2v-14h-14v14h-2v-16h18v1zM0 92.1A5.02 5.02 0 0 1 6 97a5 5 0 0 1-6 4.9v-2.07a3 3 0 1 0 0-5.66V92.1zM80 272h2v32h-2v-32zm37.9 32h-2.07a3 3 0 0 0-5.66 0h-2.07a5 5 0 0 1 9.8 0zM5.9 0A5.02 5.02 0 0 1 0 5.9V3.83A3 3 0 0 0 3.83 0H5.9zm294.2 0h2.07A3 3 0 0 0 304 3.83V5.9a5 5 0 0 1-3.9-5.9zm3.9 300.1v2.07a3 3 0 0 0-1.83 1.83h-2.07a5 5 0 0 1 3.9-3.9zM97 100a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-48 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 96a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-144a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-96 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm96 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-32 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM49 36a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-32 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM33 68a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 240a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm80-176a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm112 176a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM17 180a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM17 84a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 .cont_dsgn {
-    background-color: #222227;
-    border: 0.5px solid white;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 28' width='56' height='28'%3E%3Cpath fill='%23fbfafb' fill-opacity='0.06' d='M56 26v2h-7.75c2.3-1.27 4.94-2 7.75-2zm-26 2a2 2 0 1 0-4 0h-4.09A25.98 25.98 0 0 0 0 16v-2c.67 0 1.34.02 2 .07V14a2 2 0 0 0-2-2v-2a4 4 0 0 1 3.98 3.6 28.09 28.09 0 0 1 2.8-3.86A8 8 0 0 0 0 6V4a9.99 9.99 0 0 1 8.17 4.23c.94-.95 1.96-1.83 3.03-2.63A13.98 13.98 0 0 0 0 0h7.75c2 1.1 3.73 2.63 5.1 4.45 1.12-.72 2.3-1.37 3.53-1.93A20.1 20.1 0 0 0 14.28 0h2.7c.45.56.88 1.14 1.29 1.74 1.3-.48 2.63-.87 4-1.15-.11-.2-.23-.4-.36-.59H26v.07a28.4 28.4 0 0 1 4 0V0h4.09l-.37.59c1.38.28 2.72.67 4.01 1.15.4-.6.84-1.18 1.3-1.74h2.69a20.1 20.1 0 0 0-2.1 2.52c1.23.56 2.41 1.2 3.54 1.93A16.08 16.08 0 0 1 48.25 0H56c-4.58 0-8.65 2.2-11.2 5.6 1.07.8 2.09 1.68 3.03 2.63A9.99 9.99 0 0 1 56 4v2a8 8 0 0 0-6.77 3.74c1.03 1.2 1.97 2.5 2.79 3.86A4 4 0 0 1 56 10v2a2 2 0 0 0-2 2.07 28.4 28.4 0 0 1 2-.07v2c-9.2 0-17.3 4.78-21.91 12H30zM7.75 28H0v-2c2.81 0 5.46.73 7.75 2zM56 20v2c-5.6 0-10.65 2.3-14.28 6h-2.7c4.04-4.89 10.15-8 16.98-8zm-39.03 8h-2.69C10.65 24.3 5.6 22 0 22v-2c6.83 0 12.94 3.11 16.97 8zm15.01-.4a28.09 28.09 0 0 1 2.8-3.86 8 8 0 0 0-13.55 0c1.03 1.2 1.97 2.5 2.79 3.86a4 4 0 0 1 7.96 0zm14.29-11.86c1.3-.48 2.63-.87 4-1.15a25.99 25.99 0 0 0-44.55 0c1.38.28 2.72.67 4.01 1.15a21.98 21.98 0 0 1 36.54 0zm-5.43 2.71c1.13-.72 2.3-1.37 3.54-1.93a19.98 19.98 0 0 0-32.76 0c1.23.56 2.41 1.2 3.54 1.93a15.98 15.98 0 0 1 25.68 0zm-4.67 3.78c.94-.95 1.96-1.83 3.03-2.63a13.98 13.98 0 0 0-22.4 0c1.07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z'%3E%3C/path%3E%3C/svg%3E");
+  background-color: #222227;
+  border: 0.5px solid white;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 28' width='56' height='28'%3E%3Cpath fill='%23fbfafb' fill-opacity='0.06' d='M56 26v2h-7.75c2.3-1.27 4.94-2 7.75-2zm-26 2a2 2 0 1 0-4 0h-4.09A25.98 25.98 0 0 0 0 16v-2c.67 0 1.34.02 2 .07V14a2 2 0 0 0-2-2v-2a4 4 0 0 1 3.98 3.6 28.09 28.09 0 0 1 2.8-3.86A8 8 0 0 0 0 6V4a9.99 9.99 0 0 1 8.17 4.23c.94-.95 1.96-1.83 3.03-2.63A13.98 13.98 0 0 0 0 0h7.75c2 1.1 3.73 2.63 5.1 4.45 1.12-.72 2.3-1.37 3.53-1.93A20.1 20.1 0 0 0 14.28 0h2.7c.45.56.88 1.14 1.29 1.74 1.3-.48 2.63-.87 4-1.15-.11-.2-.23-.4-.36-.59H26v.07a28.4 28.4 0 0 1 4 0V0h4.09l-.37.59c1.38.28 2.72.67 4.01 1.15.4-.6.84-1.18 1.3-1.74h2.69a20.1 20.1 0 0 0-2.1 2.52c1.23.56 2.41 1.2 3.54 1.93A16.08 16.08 0 0 1 48.25 0H56c-4.58 0-8.65 2.2-11.2 5.6 1.07.8 2.09 1.68 3.03 2.63A9.99 9.99 0 0 1 56 4v2a8 8 0 0 0-6.77 3.74c1.03 1.2 1.97 2.5 2.79 3.86A4 4 0 0 1 56 10v2a2 2 0 0 0-2 2.07 28.4 28.4 0 0 1 2-.07v2c-9.2 0-17.3 4.78-21.91 12H30zM7.75 28H0v-2c2.81 0 5.46.73 7.75 2zM56 20v2c-5.6 0-10.65 2.3-14.28 6h-2.7c4.04-4.89 10.15-8 16.98-8zm-39.03 8h-2.69C10.65 24.3 5.6 22 0 22v-2c6.83 0 12.94 3.11 16.97 8zm15.01-.4a28.09 28.09 0 0 1 2.8-3.86 8 8 0 0 0-13.55 0c1.03 1.2 1.97 2.5 2.79 3.86a4 4 0 0 1 7.96 0zm14.29-11.86c1.3-.48 2.63-.87 4-1.15a25.99 25.99 0 0 0-44.55 0c1.38.28 2.72.67 4.01 1.15a21.98 21.98 0 0 1 36.54 0zm-5.43 2.71c1.13-.72 2.3-1.37 3.54-1.93a19.98 19.98 0 0 0-32.76 0c1.23.56 2.41 1.2 3.54 1.93a15.98 15.98 0 0 1 25.68 0zm-4.67 3.78c.94-.95 1.96-1.83 3.03-2.63a13.98 13.98 0 0 0-22.4 0c1.07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z'%3E%3C/path%3E%3C/svg%3E");
 }
 .kanan {
-    font-family: 'Neue Montreal', 'Overpass';
-    font-weight: bold;
-    position: absolute;
-    font-size: large;
-    top: 20px;
-    left: 20px;
-    z-index: 3;
-    color: rgb(255, 255, 255);
+  font-family: "Neue Montreal", "Overpass";
+  font-weight: bold;
+  position: absolute;
+  font-size: large;
+  top: 20px;
+  left: 20px;
+  z-index: 3;
+  color: rgb(255, 255, 255);
 }
 
 .clear {
-    clear: left;
+  clear: left;
 }
 
 #img2 {
-    width: 100%;
-    z-index: 10;
-    transition: 1s;
+  width: 100%;
+  z-index: 10;
+  transition: 1s;
 }
 
 #img1 {
-    width: 100%;
-    z-index: 8;
-    transition: 1s;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  width: 100%;
+  z-index: 8;
+  transition: 1s;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .scroll-down {
-    background-color: #222227;
-    height: 50px;
-    width: 30px;
-    border: 2px solid rgb(255, 255, 255);
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-    border-radius: 50px;
-    cursor: pointer;
-    margin: 0 auto;
+  background-color: #222227;
+  height: 50px;
+  width: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 0 auto;
 }
 
 .scroll-down::before,
 .scroll-down::after {
-    content: "";
-    position: absolute;
-    top: 20%;
-    right: 3px;
-    height: 10px;
-    width: 10px;
-    transform: translate(-50%, -100%) rotate(45deg);
-    border: 2px solid rgb(255, 255, 255);
-    border-top: transparent;
-    border-left: transparent;
-    animation: scroll-down 1s ease-in-out infinite;
-    margin: 0 auto;
+  content: "";
+  position: absolute;
+  top: 20%;
+  right: 3px;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid rgb(255, 255, 255);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+  margin: 0 auto;
 }
 
 .scroll-down::before {
-    top: 30%;
-    animation-delay: 0.3s;
-    
+  top: 30%;
+  animation-delay: 0.3s;
 }
 
 .scroll-down:active {
-    background-color: #e099bd !important;
+  background-color: #e099bd !important;
 }
 
 .scroll-down:hover {
-    background-color: #9e99e0;
+  background-color: #9e99e0;
 }
 
 #myBtn {
-    background-color: #222227;
-    height: 50px;
-    width: 30px;
-    border: 2px solid rgb(255, 255, 255);
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    border-radius: 50px;
-    cursor: pointer;
-    display: none;
-    z-index: 99;
+  background-color: #222227;
+  height: 50px;
+  width: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: none;
+  z-index: 99;
 }
 
 #myBtn::before,
 #myBtn::after {
-    content: "";
-    position: absolute;
-    top: 20%;
-    right: 3.5px;
-    height: 10px;
-    width: 10px;
-    transform: translate(-50%, -100%) rotate(225deg);
-    border: 2px solid rgb(255, 255, 255);
-    border-top: transparent;
-    border-left: transparent;
-    animation: scroll-up 1s ease-in-out infinite;
+  content: "";
+  position: absolute;
+  top: 20%;
+  right: 3.5px;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(225deg);
+  border: 2px solid rgb(255, 255, 255);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-up 1s ease-in-out infinite;
 }
 
 #myBtn::before {
-    top: 30%;
-    animation-delay: 0.3s;
-   
+  top: 30%;
+  animation-delay: 0.3s;
 }
 
 #myBtn:active {
-    background-color: #e099bd !important;
+  background-color: #e099bd !important;
 }
 
 #myBtn:hover {
-    background-color: #9e99e0;
+  background-color: #9e99e0;
 }
 
 .animate {
-    animation: ripple-mo 1s cubic-bezier(0, 0, 0.2, 1);
+  animation: ripple-mo 1s cubic-bezier(0, 0, 0.2, 1);
 }
 
 @keyframes ripple-mo {
-    0% {
-        transform: scale(0);
-        opacity: 1;
-    }
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
 
-    100% {
-        transform: scale(10);
-        opacity: 0;
-    }
+  100% {
+    transform: scale(10);
+    opacity: 0;
+  }
 }
 @keyframes scroll-up {
-    100% {
-        
-        opacity: 0;
-    }
+  100% {
+    opacity: 0;
+  }
 
-    60% {
-        opacity: 1;
-    }
+  60% {
+    opacity: 1;
+  }
 
-    30% {
-        opacity: 1;
-    }
+  30% {
+    opacity: 1;
+  }
 
-    0% {
-        top: 90%;
-        opacity: 0;
-    }
+  0% {
+    top: 90%;
+    opacity: 0;
+  }
 }
 
 @keyframes scroll-down {
-    0% {
-        
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    30% {
-        opacity: 1;
-    }
+  30% {
+    opacity: 1;
+  }
 
-    60% {
-        opacity: 1;
-    }
+  60% {
+    opacity: 1;
+  }
 
-    100% {
-        top: 90%;
-        opacity: 0;
-    }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
 }
 
 .ripple {
-    width: 10px;
-    height: 10px;
-    opacity: 0;
-    transform: scale(0);
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-    position: fixed;
-    z-index: 99;
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+  transform: scale(0);
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
 }
 #tanggalwaktu {
-    font-family: 'Neue Montreal', 'Overpass';
-    font-weight: bold;
-    font-size: large;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 3;
-    color: rgb(255, 255, 255);
+  font-family: "Neue Montreal", "Overpass";
+  font-weight: bold;
+  font-size: large;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 3;
+  color: rgb(255, 255, 255);
 }
